@@ -5,10 +5,13 @@ import events from './assets/events.json'
 
 function App() {
   const footerMessage = "made with <3"
+  const spotifyPlaylist = "https://open.spotify.com/playlist/6cSzgIJJczZ3rrrzYEfEVp?trackId=3JGtEMktx8XnEVjVUYgU0M"
+
   return (
     <>
       <div>
-        <h1>Leen's bday playlist :) </h1>
+        <h1>Leen's bday playlist</h1>
+        <a href={spotifyPlaylist} target="_blank" rel="noopener noreferrer">Open in Spotify</a>
       </div>
 
       <div>
