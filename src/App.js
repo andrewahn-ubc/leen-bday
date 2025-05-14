@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// App.jsx or App.tsx
+import React, { useEffect, useState } from "react";
+import Card from "./Card";
+import events from './assets/events.json'
 
 function App() {
+  const footerMessage = "made with <3"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <h1>Leen's bday playlist :)</h1>
+      </div>
+
+      <div>
+        {Object.entries(events).map(([emoji_name, event]) => (
+          <Card spotify_id={event["song id"]}
+                emoji={event["emoji path"]}
+                date={event["date"]}
+                desc={event["event description"]}
+                note={event["note"]}
+          />
+        ))}
+      </div>
+
+      <div>
+        {footerMessage}
+      </div>
+    </>
   );
 }
 
