@@ -1,40 +1,88 @@
 .card-container {
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: var(--med-brown);
+    margin: 4vw auto;
+    padding: 1vw;
+    border: none;
+    border-radius: 4vw;
+    max-width: 90vw;
+    width: 100%;
+    color: #212121;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .event-container {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1vw;
+    padding: 1vw;
+    padding-left: 2vw;
 }
 
 .song-container {
     display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    padding: 4vw;
+    align-items: flex-start;
+    max-width: 35%;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .album-cover {
-    width: 20vw;
+    width: 30vw;
+    margin-bottom: 2vw;
 }
 
 .song-name {
-    font-size: 2vw;
+    font-size: 4vw;
+    margin: 0vw;
+    font-weight: bold;
+    opacity: 70%;
 }
 
 .artist-name {
-    font-size: 1vw;
-}
-
-.note {
-    font-size: 1vw;
+    font-size: 4vw;
+    margin: 0vw;
+    opacity: 70%;
 }
 
 .emoji {
-    width: 5vw;
+    width: 15vw;
+    height: 15vw;
+    margin: 2vw;
 }
 
 .date {
-    font-size: 1vw;
+    font-size: 5vw;
+    opacity: 60%;
 }
 
 .description {
-    font-size: 1vw;
+    font-size: 8vw;
+    margin: 2vw;
+    opacity: 70%;
+}
+
+.note {
+    font-size: 4vw;
+    margin: 0vw;
+    opacity: 90%;
 }
 

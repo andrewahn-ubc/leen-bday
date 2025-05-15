@@ -10,27 +10,27 @@ function App() {
 
   return (
     <>
-      <div className="header">
-        <div className="subheader">
-          <h1>Leen's bday playlist</h1>
+      <div className="app-container">
+        <div className="header">
+          <img className="title" src="images/title.png" alt="leen's bday playlist"/>
+          <a className="open-spotify-button" href={spotifyPlaylist} target="_blank" rel="noopener noreferrer">Open in Spotify</a>
+        </div>
+
+        <div className="cards-container">
+          {Object.entries(events).map(([emoji_name, event]) => (
+            <Card spotify_id={event["song id"]}
+                  emoji={event["emoji path"]}
+                  date={event["date"]}
+                  desc={event["event description"]}
+                  note={event["note"]}
+            />
+          ))}
+        </div>
+
+        <div className="footer-message">
+          <p>{footerMessage}</p>
           <img className="snoopy" src="images/snoopy.png" alt="snoopy"/>
         </div>
-        <a className="open-spotify-button" href={spotifyPlaylist} target="_blank" rel="noopener noreferrer">Open in Spotify</a>
-      </div>
-
-      <div className="cards-container">
-        {Object.entries(events).map(([emoji_name, event]) => (
-          <Card spotify_id={event["song id"]}
-                emoji={event["emoji path"]}
-                date={event["date"]}
-                desc={event["event description"]}
-                note={event["note"]}
-          />
-        ))}
-      </div>
-
-      <div className="footer-message">
-        {footerMessage}
       </div>
     </>
   );

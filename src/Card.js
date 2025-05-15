@@ -36,23 +36,29 @@ function Card(props) {
   return (
     <>
       <div className="card-container">
-        <div className="event-container">
-          <div>
-            <img className="emoji" src={props.emoji} alt="cute emoji"/>
-            <h1 className="description">{props.desc}</h1>
-          </div>
-          <h1 className="date">{props.date}</h1>
-          <p className="note">{props.note}</p>
+        <div className="card-title">
+          <img className="emoji" src={props.emoji} alt="cute emoji"/>
+          <h1 className="description">{props.desc}</h1>
         </div>
 
-        {track ? 
-          <div className="song-container">
-            <img className="album-cover" src={track.album.images[1].url} alt="cute album cover" />
-            <p className="song-name">{track.name}</p>
-            <p className="artist-name">{track.artists[0].name}</p>
-          </div> :
-          <p>loading song...</p>
-        }
+        <div className="card-info">
+          <div className="event-container">
+            <h1 className="date">{props.date}</h1>
+            <p className="note">{props.note}</p>
+          </div>
+
+          {track ? 
+            <div className="song-container">
+              <a className="song-link" href={track.external_urls["spotify"]} target="_blank" rel="noopener noreferrer">
+                  <img className="album-cover" src={track.album.images[1].url} alt="cute album cover" />
+                  <p className="song-name">{track.name}</p>
+                  <p className="artist-name">{track.artists[0].name}</p>
+              </a>
+            </div>
+            :
+            <p>loading song...</p>
+          }
+        </div>
       </div>
     </>
   );

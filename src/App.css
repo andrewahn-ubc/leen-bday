@@ -5,30 +5,93 @@
   --green: #B5C18E;
 }
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-brown);
+  font-family: 'Baloo 2';
+}
+
 .App {
   text-align: center;
+  min-height: 100%;
+}
+
+a {
+  color: inherit;          
+  text-decoration: none;   
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
-  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  margin: 8vw;
+  padding: 8vw;    
 }
 
 .subheader {
   margin: 1vw;
 }
 
+.title {
+  width: 90vw;
+  margin: 30vw -10vw; 
+}
+
 .snoopy {
-  width: 20vw;
+  width: 15vw;
+  padding: 4vw;
+  position: absolute;
+  left: calc(50% + 10vw);
 }
 
 .open-spotify-button {
-  width: 5vw;
+  width: 60vw;
+  display: block;
+  text-align: center;
+  background-color: var(--dark-brown);
+  margin: 4vw;
+  padding: 2vw; 
+  font-weight: bold;
+  font-size: 6vw;
+  color: var(--light-brown);  
+  border-radius: 4vw;
+  border: none;
+}
+
+.open-spotify-button:hover {
+  background-color: var(--med-brown);
+  color: var(--dark-brown);
 }
 
 .cards-container {
-  margin: 0vw;
+  margin: 2vw;
+  padding: 2vw;
 }
 
 .footer-message {
-  font-size: 1vw;
+  font-size: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* vertical alignment */
+  align-items: center;     
+  margin: 4vw 0vw;
+  margin-top: 0vw;
+  padding: 4vw;
+  padding-top: 0vw;
+  position: relative;
+}
+
+.footer-message > p{   
+  margin-right: -2vw;
 }
