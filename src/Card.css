@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+}
+
+.event-container {
+    display: flex;
+}
+
+.song-container {
+    display: flex;
+}
+
+.album-cover {
+    width: 20vw;
+}
+
+.song-name {
+    font-size: 2vw;
+}
+
+.artist-name {
+    font-size: 1vw;
+}
+
+.note {
+    font-size: 1vw;
+}
+
+.emoji {
+    width: 5vw;
+}
+
+.date {
+    font-size: 1vw;
+}
+
+.description {
+    font-size: 1vw;
+}
+

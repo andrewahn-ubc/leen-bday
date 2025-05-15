@@ -1,5 +1,6 @@
 // App.jsx or App.tsx
 import React, { useEffect, useState } from "react";
+import "./Card.css"
 
 function Card(props) {
   const [track, setTrack] = useState(null);
@@ -24,7 +25,6 @@ function Card(props) {
   
         const trackData = await trackRes.json();
         setTrack(trackData);
-        console.log(trackData)
       } catch (error) {
         console.error("Error fetching track:", error);
       }
@@ -34,27 +34,27 @@ function Card(props) {
   }, []);
 
   return (
-    <div>
-      <div>
-        <div>
-          <img src={props.emoji} alt="cute emoji"/>
-          <h1>{props.date}</h1>
+    <>
+      <div className="card-container">
+        <div className="event-container">
+          <div>
+            <img className="emoji" src={props.emoji} alt="cute emoji"/>
+            <h1 className="description">{props.desc}</h1>
+          </div>
+          <h1 className="date">{props.date}</h1>
+          <p className="note">{props.note}</p>
         </div>
-        <h1>{props.desc}</h1>
+
+        {track ? 
+          <div className="song-container">
+            <img className="album-cover" src={track.album.images[1].url} alt="cute album cover" />
+            <p className="song-name">{track.name}</p>
+            <p className="artist-name">{track.artists[0].name}</p>
+          </div> :
+          <p>loading song...</p>
+        }
       </div>
-
-      {track ? (
-        <div>
-          <p>{track.name}</p>
-          <p>{track.artists[0].name}</p>
-          <img src={track.album.images[1].url} alt="cute album cover" />
-        </div>
-      ) : (
-        <p>Loading track info...</p>
-      )}
-
-      <p>{props.note}</p>
-    </div>
+    </>
   );
 }
 
