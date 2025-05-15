@@ -36,6 +36,7 @@
     padding: 4vw;
     align-items: flex-start;
     max-width: 35%;
+    font-family: Helvetica, Helvetica, sans-serif;
 }
 
 .card-title {
@@ -55,6 +56,8 @@
     margin: 0vw;
     font-weight: bold;
     opacity: 70%;
+    margin-top: -1vw;
+    margin-bottom: 1vw;
 }
 
 .artist-name {
@@ -83,6 +86,7 @@
 .note {
     font-size: 4vw;
     margin: 0vw;
-    opacity: 90%;
+    opacity: 80%;
+    margin-bottom: 4vw;
 }
 
