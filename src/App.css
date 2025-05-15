@@ -11,7 +11,7 @@ html, body, #root {
   padding: 0;
   background-color: var(--light-brown);
   /* font-family: 'Baloo 2'; */
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
 }
 
 .App {
