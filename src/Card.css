@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: start;
     background-color: var(--med-brown);
-    margin: 4vw auto;
-    padding: 1vw;
+    margin: 4vmin auto;
+    padding: 1vmin;
     border: none;
-    border-radius: 4vw;
-    max-width: 90vw;
+    border-radius: 4vmin;
+    max-width: 90vmin;
     width: 100%;
     color: #212121;
 }
@@ -24,16 +24,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 1vw;
-    padding: 1vw;
-    padding-left: 2vw;
+    margin: 1vmin;
+    padding: 1vmin;
+    padding-left: 2vmin;
 }
 
 .song-container {
     display: flex;
     flex-direction: column;
-    margin: 1vw;
-    padding: 4vw;
+    margin: 1vmin;
+    padding: 4vmin;
     align-items: flex-start;
     max-width: 35%;
     font-family: Helvetica, sans-serif;
@@ -47,46 +47,46 @@
 }
 
 .album-cover {
-    width: 30vw;
-    margin-bottom: 2vw;
+    width: 30vmin;
+    margin-bottom: 2vmin;
 }
 
 .song-name {
-    font-size: 4vw;
-    margin: 0vw;
+    font-size: 4vmin;
+    margin: 0vmin;
     font-weight: bold;
     opacity: 70%;
-    margin-top: -1vw;
-    margin-bottom: 1vw;
+    margin-top: -1vmin;
+    margin-bottom: 1vmin;
 }
 
 .artist-name {
-    font-size: 4vw;
-    margin: 0vw;
+    font-size: 4vmin;
+    margin: 0vmin;
     opacity: 70%;
 }
 
 .emoji {
-    width: 15vw;
-    height: 15vw;
-    margin: 2vw;
+    width: 15vmin;
+    height: 15vmin;
+    margin: 2vmin;
 }
 
 .date {
-    font-size: 5vw;
+    font-size: 5vmin;
     opacity: 60%;
 }
 
 .description {
-    font-size: 8vw;
-    margin: 2vw;
+    font-size: 8vmin;
+    margin: 2vmin;
     opacity: 70%;
 }
 
 .note {
-    font-size: 4vw;
-    margin: 0vw;
+    font-size: 4vmin;
+    margin: 0vmin;
     opacity: 80%;
-    margin-bottom: 4vw;
+    margin-bottom: 4vmin;
 }
 

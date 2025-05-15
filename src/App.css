@@ -35,37 +35,39 @@ a {
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
-  margin: 8vw;
-  padding: 8vw;    
+  margin: 8vmin;
+  padding: 8vmin;    
 }
 
 .subheader {
-  margin: 1vw;
+  margin: 1vmin;
 }
 
 .title {
-  width: 90vw;
-  margin: 30vw -10vw; 
+  width: 90vmin;
+  margin: 30vmin -10vmin; 
 }
 
 .snoopy {
-  width: 15vw;
-  padding: 4vw;
+  width: 15vmin;
+  padding: 4vmin;
   position: absolute;
-  left: calc(50% + 10vw);
+  left: calc(50% + 10vmin);
 }
 
 .open-spotify-button {
-  width: 60vw;
+  width: 60vmin;
   display: block;
   text-align: center;
   background-color: var(--dark-brown);
-  margin: 4vw;
-  padding: 2vw; 
+  margin: 2vmin;
+  margin-bottom: 0vmin;
+  margin-top: 6vmin;
+  padding: 4vmin; 
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 6vmin;
   color: var(--light-brown);  
-  border-radius: 4vw;
+  border-radius: 4vmin;
   border: none;
 }
 
@@ -75,23 +77,26 @@ a {
 }
 
 .cards-container {
-  margin: 2vw;
-  padding: 2vw;
+  margin: 2vmin;
+  margin-top: 0vmin;
+  padding: 2vmin;
+  padding-top: 0vmin;
 }
 
 .footer-message {
-  font-size: 4vw;
+  font-size: 4vmin;
   display: flex;
   flex-direction: row;
   justify-content: center; /* vertical alignment */
   align-items: center;     
-  margin: 4vw 0vw;
-  margin-top: 0vw;
-  padding: 4vw;
-  padding-top: 0vw;
+  margin: 4vmin 0vmin;
+  margin-top: 0vmin;
+  padding: 4vmin;
+  padding-top: 0vmin;
   position: relative;
 }
 
 .footer-message > p{   
-  margin-left: -8vw;
+  margin-left: -8vmin;
+  opacity: 70%;
 }
