@@ -10,8 +10,7 @@ html, body, #root {
   margin: 0;
   padding: 0;
   background-color: var(--light-brown);
-  /* font-family: 'Baloo 2'; */
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: sans-serif;
 }
 
 .App {
@@ -63,7 +62,6 @@ a {
   background-color: var(--dark-brown);
   margin: 4vw;
   padding: 2vw; 
-  padding-bottom: 4vw; 
   font-weight: bold;
   font-size: 6vw;
   color: var(--light-brown);  
@@ -95,5 +93,5 @@ a {
 }
 
 .footer-message > p{   
-  margin-right: -2vw;
+  margin-left: -8vw;
 }
