@@ -1,16 +1,198 @@
 {
-    "house1": {
-        "emoji path": "emojis/house_emoji.png",
-        "date": "Sept 25th, 2024",
-        "event description": "First time hanging out outside of class!",
-        "song id": "4Knjk2qN7Vm5VWtvy5giym",
-        "note": "this was a cute day"
+    "calculator": {
+        "emoji path": "emojis/emoji_calc.png",
+        "date": "Apr 5, 2024",
+        "event description": "meeting at mlc",
+        "song id": "1Zr7kxrJWpDT2Lx1VsbTvt",
+        "note": "ayyy trauma bonding"
     },
-    "house2": {
-        "emoji path": "emojis/house_emoji.png",
-        "date": "Sept 25th, 2024",
-        "event description": "First time hanging out outside of class!",
-        "song id": "4Knjk2qN7Vm5VWtvy5giym",
-        "note": "this was a cute day"
+    "studying 220": {
+        "emoji path": "emojis/emoji_book.png",
+        "date": "Apr 14-18, 2024",
+        "event description": "studying for 220",
+        "song id": "6FcDxtnGfsYHOcGkXN2OIG",
+        "note": "in koerner basement"
+    },
+    "house": {
+        "emoji path": "emojis/emoji_house.png",
+        "date": "Sep 25, 2024",
+        "event description": "first hangout outside of class",
+        "song id": "5swZvDSi78Znk4rlmwHNnj",
+        "note": "ate some yummy thai food, went to Tiffany's house for the first time, and marked the start of our awsm friendship"
+    },
+    "buchanan": {
+        "emoji path": "emojis/emoji_pencil.png",
+        "date": "Oct 1, 2024",
+        "event description": "studying at buch together",
+        "song id": "39LLxExYz6ewLAcYrzQQyP",
+        "note": "we talked about tiffany's crush..."
+    },
+    "spotify": {
+        "emoji path": "emojis/emoji_spotify.png",
+        "date": "mid-October, 2024",
+        "event description": "first spotify blend",
+        "song id": "5NR7XN88d1NhOXKR0vD5XK",
+        "note": ""
+    },
+    "sg food": {
+        "emoji path": "emojis/emoji_icecream.png",
+        "date": "Nov 11, 2024",
+        "event description": "sg food + rainy trek to gelato",
+        "song id": "08dD8Lk7VUea38YnsMzOP7",
+        "note": "+ we played uno at andrew's house!"
+    },
+    "lore drop": {
+        "emoji path": "emojis/emoji_hug.png",
+        "date": "Nov 24, 2024",
+        "event description": "leen lore drop day",
+        "song id": "4nVBt6MZDDP6tRVdQTgxJg",
+        "note": ""
+    },
+    "tiff bday": {
+        "emoji path": "emojis/emoji_cookie.png",
+        "date": "Jan 14-15, 2025",
+        "event description": "tiff bday + cookie baking",
+        "song id": "0cqRj7pUJDkTCEsJkx8snD",
+        "note": "one of tiffany's favourite bdays ever + paul reveal + origin of gay giggles ^^"
+    },
+    "crazy rich asians": {
+        "emoji path": "emojis/emoji_ft.png",
+        "date": "Feb 8, 2025",
+        "event description": "watching crazy rich asians over ft",
+        "song id": "1yeB8MUNeLo9Ek1UEpsyz6",
+        "note": "it was actually discord but who cares ..."
+    },
+    "karaoke + ta bom": {
+        "emoji path": "emojis/emoji_mic.png",
+        "date": "Feb 15, 2025",
+        "event description": "first karaoke session + ta bom",
+        "song id": "1gugDOSMREb34Xo0c1PlxM",
+        "note": ""
+    },
+    "gym": {
+        "emoji path": "emojis/emoji_dumbbell.png",
+        "date": "Feb 23, 2025",
+        "event description": "first gym sesh together",
+        "song id": "3QLjDkgLh9AOEHlhQtDuhs",
+        "note": ""
+    },
+    "games night": {
+        "emoji path": "emojis/emoji_dice.png",
+        "date": "Mar 14, 2025",
+        "event description": "games night at andrew's",
+        "song id": "3ISKxnCGKc5B9zr9CTUB3v",
+        "note": ""
+    },
+    "mickey 17": {
+        "emoji path": "emojis/emoji_popcorn.png",
+        "date": "Mar 15, 2025",
+        "event description": "korean food + mickey 17",
+        "song id": "4ZxOuNHhpyOj4gv52MtQpT",
+        "note": "when we spontaneously went to get korean food and gelato and watched mickey 17!"
+    },
+    "dad": {
+        "emoji path": "emojis/emoji_guy.png",
+        "date": "Mar 30, 2025",
+        "event description": "meeting your dad",
+        "song id": "3NlLmKBJozwoi0k03Feb1N",
+        "note": "the song's about how much stevie loves his daughter"
+    },
+    "andrew bday": {
+        "emoji path": "emojis/emoji_cake.png",
+        "date": "Apr 6, 2025",
+        "event description": "andrew's bday",
+        "song id": "2iUmqdfGZcHIhS3b9E9EWq",
+        "note": "this is also the day after our 1 year anniversary of meeting each other :)"
+    },
+    "beabadoobee": {
+        "emoji path": "emojis/emoji_notes.png",
+        "date": "Apr 8, 2025",
+        "event description": "beabadoobee concert",
+        "song id": "505HhtdgN8lynQcJQCcIiD",
+        "note": "~ prettiest eyes ~ you've ever seen ~"
+    },
+    "wreck beach": {
+        "emoji path": "emojis/emoji_parasol.png",
+        "date": "April 10, 2025",
+        "event description": "wreck beach",
+        "song id": "1a19jsjG2DvbN1fVJonKUU",
+        "note": "in koerner basement"
+    },
+    "squamish": {
+        "emoji path": "emojis/emoji_mountain.png",
+        "date": "April 27-29, 2025",
+        "event description": "squamish sleepover",
+        "song id": "2bl81llf715VEEbAx03yvB",
+        "note": "we hiked 'smokey bluffs' and blasted close to you"
+    },
+    "arcade": {
+        "emoji path": "emojis/emoji_hockey.png",
+        "date": "May 3, 2025",
+        "event description": "karaoke + standup comedy + arcade",
+        "song id": "0pqnGHJpmpxLKifKRmU6WP",
+        "note": "we got the cutest photo booth pics <3"
+    },
+    "aquarium": {
+        "emoji path": "emojis/emoji_fish.png",
+        "date": "May 7, 2025",
+        "event description": "aquarium + stanley park",
+        "song id": "71DSaeKtXQaMAqnvMT7Uoc",
+        "note": "+ proudly blasting hips don't lie on the stanely park sea wall"
+    },
+    "potluck": {
+        "emoji path": "emojis/emoji_chicken.png",
+        "date": "Summer 2025",
+        "event description": "potluck w friends",
+        "song id": "5HQVUIKwCEXpe7JIHyY734",
+        "note": "we'll push this to the fall ^^"
+    },
+    "dino": {
+        "emoji path": "emojis/emoji_dino.png",
+        "date": "Summer 2025",
+        "event description": "museum trip!",
+        "song id": "27rZYxE4l21wTaovX4WTnI",
+        "note": "it's going to happen!!! just in the fall..."
+    },
+    "pne": {
+        "emoji path": "emojis/emoji_rollercoaster.png",
+        "date": "Summer 2025",
+        "event description": "amusement park",
+        "song id": "3DarAbFujv6eYNliUTyqtz",
+        "note": "maybe Summer 2026?"
+    },
+    "pumpkin": {
+        "emoji path": "emojis/emoji_pumpkin.png",
+        "date": "Fall 2025",
+        "event description": "pumpkin picking",
+        "song id": "0HAqq2GcQKyi3s87GuN7jU",
+        "note": "amoeba is such a fall song"
+    },
+    "painting": {
+        "emoji path": "emojis/emoji_paint.png",
+        "date": "Fall 2025",
+        "event description": "painting date",
+        "song id": "16gJmoOqRt2lKmlXtDpWgH",
+        "note": ""
+    },
+    "puzzles": {
+        "emoji path": "emojis/emoji_puzzle.png",
+        "date": "Fall 2025",
+        "event description": "puzzle night",
+        "song id": "41P6Tnd8KIHqON0QIydx6a",
+        "note": ""
+    },
+    "ski trip": {
+        "emoji path": "emojis/emoji_skis.png",
+        "date": "Winter 2025",
+        "event description": "ski trip!",
+        "song id": "0VgkVdmE4gld66l8iyGjgx",
+        "note": "(ski) mask off"
+    },
+    "skating": {
+        "emoji path": "emojis/emoji_skate.png",
+        "date": "Winter 2025",
+        "event description": "skating night",
+        "song id": "44AyOl4qVkzS48vBsbNXaC",
+        "note": "get it?"
     }
 }
