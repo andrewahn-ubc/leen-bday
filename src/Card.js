@@ -3,36 +3,6 @@ import React, { useEffect, useState } from "react";
 import "./Card.css"
 
 function Card(props) {
-  const [track, setTrack] = useState(null);
-
-  useEffect(() => {
-    const fetchTrack = async () => {
-      try {
-        // Call your Vercel serverless function to get the access token
-        const tokenRes = await fetch("/api/spotify-token");
-        const tokenData = await tokenRes.json();
-        const accessToken = tokenData.access_token;
-  
-        // Spotify track ID (e.g., Eminem - Lose Yourself)
-        const trackId = props.spotify_id;
-  
-        // Fetch track data from Spotify API
-        const trackRes = await fetch(`https://api.spotify.com/v1/tracks/${trackId}`, {
-          headers: {
-            Authorization: `Bearer ${accessToken}`,
-          },
-        });
-  
-        const trackData = await trackRes.json();
-        setTrack(trackData);
-      } catch (error) {
-        console.error("Error fetching track:", error);
-      }
-    };
-  
-    fetchTrack();
-  }, []);
-
   return (
     <>
       <div className="card-container">
@@ -47,12 +17,12 @@ function Card(props) {
             <p className="note">{props.note}</p>
           </div>
 
-          {track ? 
+          {!props.isLoading ? 
             <div className="song-container">
-              <a className="song-link" href={track.external_urls["spotify"]} target="_blank" rel="noopener noreferrer">
-                  <img className="album-cover" src={track.album.images[1].url} alt="cute album cover" />
-                  <p className="song-name">{track.name}</p>
-                  <p className="artist-name">{track.artists[0].name}</p>
+              <a className="song-link" href={props.trackData.external_urls["spotify"]} target="_blank" rel="noopener noreferrer">
+                  <img className="album-cover" src={props.trackData.album.images[1].url} alt="cute album cover" />
+                  <p className="song-name">{props.trackData.name}</p>
+                  <p className="artist-name">{props.trackData.artists[0].name}</p>
               </a>
             </div>
             :
